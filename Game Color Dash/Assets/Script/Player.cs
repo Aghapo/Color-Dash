@@ -7,8 +7,8 @@ public class Player : MonoBehaviour {
     private Rigidbody2D rb;
 
     private Vector2 movement;
-
-    public float minX = -2.5f, maxX = 2.5f;
+    
+    public float minX = -2.5f, maxX = 2.5f; //EKranýn sýnýrlarý
     public float minY = -4f, maxY = 4f;
 
     private SpriteRenderer spriteRenderer;

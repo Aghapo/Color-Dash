@@ -38,9 +38,9 @@ public class ScoreWriter : MonoBehaviour
     }
 
     void UpdateScoreUI() {
-        if (score != null) {
+        
             scoreText.text = "Score : " + score;
-        }
+       
     }
     // Update is called once per frame
     void Update()
