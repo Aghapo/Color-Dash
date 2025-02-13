@@ -1,0 +1,1186 @@
+fileFormatVersion: 2
+guid: d80b4b05a61dc0548940f265296be29f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Frait train assets 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4445
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9481d017f009074c8be51161873050e
+      internalID: 700977160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_1
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 4445
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a589bbdced574d94296d5a88bfaf66cc
+      internalID: 1828414221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_2
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 4445
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e516e5a55630a49af6df329064aba0
+      internalID: -2034854863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_3
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 4445
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a04b321b56871a4a898a86821de47da
+      internalID: 1312830070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_4
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 4445
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28878aafb7498b54087ceca0c8b7b27b
+      internalID: 1112887429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_5
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 4445
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63929dd2525fc8b498befe7c3469dae6
+      internalID: 1901851549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_6
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 4445
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac06a3bcdc17db4e9cef52d3f58b6db
+      internalID: -346021739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_7
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 4445
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef11d7766b153464c81a37c99a3245f7
+      internalID: 800963653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_8
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 4445
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fde59d5c594134c9be2ba02f9a36b6
+      internalID: 552157094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_9
+      rect:
+        serializedVersion: 2
+        x: 4995
+        y: 4445
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d4052f8eb45df49933d370dc778e92
+      internalID: -319067260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3890
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a44363f6f477574aaa4886fb2356e3c
+      internalID: 1564621775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_11
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 3890
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa639828ee03e1f4191f5dcdc70cea58
+      internalID: -858103275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_12
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 3890
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c9e51ded304334398b1f7c2a16ca96
+      internalID: -1702731198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_13
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3890
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0f6cbc9caa14c4b927d2231c684944
+      internalID: -1366087826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_14
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 3890
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0d0eae0a07e294f8cddcd2c1224c5c
+      internalID: 329882783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_15
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 3890
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28b4cd207122254f807c0d49256d5ce
+      internalID: 549507915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_16
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 3890
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438a25b5eba47104390bf3163108aaea
+      internalID: -1914215074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_17
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 3890
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744f4ea9393b77441940349ad5b57c6d
+      internalID: 59269624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_18
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 3890
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae898e7b0644e22459b1c18bd02307a9
+      internalID: -181722802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_19
+      rect:
+        serializedVersion: 2
+        x: 4995
+        y: 3890
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a10f51008317434b90d441f1873820d
+      internalID: -242484268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3335
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c993af7e09ef014c961bbeac7b7465d
+      internalID: 267697040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_21
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 3335
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34dd0720e776524a82bcb418aab7176
+      internalID: -2072125098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_22
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 3335
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dbd30b09c9dfe44ac53ba17a56d258
+      internalID: -1460661043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_23
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3335
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852d35308457b984ba7e8e2226cf4689
+      internalID: -120974851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_24
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 3335
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc0d7ce32f514d46aebf327be95b791
+      internalID: -2112921535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_25
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 3335
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bcee504efb0a74c83c583131ca5559
+      internalID: 1428238047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_26
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 3335
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822336c4b67aa804fa18f44f3241e600
+      internalID: -1449540821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_27
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 3335
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96887c1e42b186549bf28ea109951529
+      internalID: -1326938460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_28
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 3335
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acb9c232cd92594e901fd4e1aaf759e
+      internalID: -1403568604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_29
+      rect:
+        serializedVersion: 2
+        x: 4995
+        y: 3335
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95816feb38692fc4b8d9567c03c64c3b
+      internalID: 706334001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_30
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1387
+        width: 555
+        height: 1118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e926196822ce4d3478f25da3590bf0f8
+      internalID: 277187874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_31
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1664
+        width: 585
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07792b456fed3f4fba3e55d59ae39c8
+      internalID: 964028541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_33
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1387
+        width: 502
+        height: 554
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1807d6c9e78416449730a3f6dc4b5bf
+      internalID: -1960833763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_37
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 765
+        width: 825
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a514b353643e1414ea48318e5de836b2
+      internalID: 364479927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_39
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 765
+        width: 555
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9cdce5c1e4ce449a5ea8d2376d91c4
+      internalID: 927149781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_40
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 765
+        width: 555
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c062dee764d461478a0cf1d045d56b2
+      internalID: 1918753819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_41
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 764
+        width: 792
+        height: 623
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7126209793938bf46bfc928b30ccdee3
+      internalID: 274609711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_43
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 1115
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01d9f26c4e64d24d8357e4a4ed95a00
+      internalID: -1244762990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_44
+      rect:
+        serializedVersion: 2
+        x: 4995
+        y: 1115
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639e9e0f023cdb544bda95b5de379f98
+      internalID: -812696857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_52
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 560
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056695105561c76408f3cab9c51933c1
+      internalID: 352018769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_53
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 560
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8528b16b9048cc40a7af297c9688d8c
+      internalID: 209454436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_54
+      rect:
+        serializedVersion: 2
+        x: 4995
+        y: 560
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84756445f5444142b0d013211730d96
+      internalID: -1427158387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_57
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 86
+        width: 544
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f0de24add2fb44c912b4cb1292bf25
+      internalID: 657987134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_58
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 83
+        width: 561
+        height: 625
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d04fd27e312b74f876da6ab879a50b
+      internalID: 1030082783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_59
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 86
+        width: 572
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58472141e3b8d234eb013d726731d8d1
+      internalID: 672321311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_60
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 73
+        width: 610
+        height: 635
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd4805e76028274d9420e9a42c94e0a
+      internalID: 563041319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_62
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 5
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4772d5fdb1524504996dc0a74f57d578
+      internalID: 812266262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frait train assets 1_63
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 5
+        width: 555
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b0e6eba4c715449a671a8df211c041
+      internalID: -1628969634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Frait train assets 1_0: 700977160
+      Frait train assets 1_1: 1828414221
+      Frait train assets 1_10: 1564621775
+      Frait train assets 1_11: -858103275
+      Frait train assets 1_12: -1702731198
+      Frait train assets 1_13: -1366087826
+      Frait train assets 1_14: 329882783
+      Frait train assets 1_15: 549507915
+      Frait train assets 1_16: -1914215074
+      Frait train assets 1_17: 59269624
+      Frait train assets 1_18: -181722802
+      Frait train assets 1_19: -242484268
+      Frait train assets 1_2: -2034854863
+      Frait train assets 1_20: 267697040
+      Frait train assets 1_21: -2072125098
+      Frait train assets 1_22: -1460661043
+      Frait train assets 1_23: -120974851
+      Frait train assets 1_24: -2112921535
+      Frait train assets 1_25: 1428238047
+      Frait train assets 1_26: -1449540821
+      Frait train assets 1_27: -1326938460
+      Frait train assets 1_28: -1403568604
+      Frait train assets 1_29: 706334001
+      Frait train assets 1_3: 1312830070
+      Frait train assets 1_30: 277187874
+      Frait train assets 1_31: 964028541
+      Frait train assets 1_32: -968063670
+      Frait train assets 1_33: -1960833763
+      Frait train assets 1_34: 1710575206
+      Frait train assets 1_35: -1617657100
+      Frait train assets 1_36: -2003601226
+      Frait train assets 1_37: 364479927
+      Frait train assets 1_38: 219590356
+      Frait train assets 1_39: 927149781
+      Frait train assets 1_4: 1112887429
+      Frait train assets 1_40: 1918753819
+      Frait train assets 1_41: 274609711
+      Frait train assets 1_42: -556664612
+      Frait train assets 1_43: -1244762990
+      Frait train assets 1_44: -812696857
+      Frait train assets 1_45: 414229340
+      Frait train assets 1_46: -872465826
+      Frait train assets 1_47: -1240997222
+      Frait train assets 1_48: -1642020547
+      Frait train assets 1_49: 98265352
+      Frait train assets 1_5: 1901851549
+      Frait train assets 1_50: -395934347
+      Frait train assets 1_51: 109983798
+      Frait train assets 1_52: 352018769
+      Frait train assets 1_53: 209454436
+      Frait train assets 1_54: -1427158387
+      Frait train assets 1_55: 1784987652
+      Frait train assets 1_56: -1493533759
+      Frait train assets 1_57: 657987134
+      Frait train assets 1_58: 1030082783
+      Frait train assets 1_59: 672321311
+      Frait train assets 1_6: -346021739
+      Frait train assets 1_60: 563041319
+      Frait train assets 1_61: 1332741129
+      Frait train assets 1_62: 812266262
+      Frait train assets 1_63: -1628969634
+      Frait train assets 1_7: 800963653
+      Frait train assets 1_8: 552157094
+      Frait train assets 1_9: -319067260
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
