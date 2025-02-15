@@ -7,10 +7,14 @@ public class CameraFollow : MonoBehaviour {
 
 
     // Update is called once per frame
+
+    public Transform target;
+    public float smoothSpeed = 0.125f;
+    public Vector3 offset;
+
     void Update() {
-        if (player != null) {
-            Vector3 newPos = new Vector3(player.position.x, transform.position.y, player.position.z - 5f);
-            transform.position = Vector3.Lerp(transform.position, newPos, Time.deltaTime * 5f);
-        }
+        Vector3 desiredPosition = target.position + offset;
+        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed * Time.deltaTime);
+        transform.position = smoothedPosition;
     }
 }

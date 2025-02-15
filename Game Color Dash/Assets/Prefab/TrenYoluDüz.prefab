@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5115388578691494093}
   m_Layer: 0
   m_Name: EndPoint
-  m_TagString: Untagged
+  m_TagString: Waypoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 613404829561922192}
   m_Layer: 0
   m_Name: BeginPoint
-  m_TagString: Untagged
+  m_TagString: Waypoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 3210615277092290913}
   - component: {fileID: 118553305098722373}
   m_Layer: 0
-  m_Name: "TrenYoluD\xFCz (1)"
+  m_Name: "TrenYoluD\xFCz"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

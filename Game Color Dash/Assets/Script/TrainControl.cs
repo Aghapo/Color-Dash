@@ -10,13 +10,12 @@ public class TrainControl : MonoBehaviour {
     public float currentSpeed = 0f;  // Anlýk hýz
 
     public int currentPoint = 0;  // Mevcut waypoint
-    private bool movingForward = false;  // Hareket yönü
+    private bool movingForward = true;  // Hareket yönü
 
     void Start() {
         DetectWaypoint();
     }
     void Update() {
-
         if (Waypoints.Count == 0) return;
 
         // Kullanýcý giriþlerini al
@@ -24,14 +23,14 @@ public class TrainControl : MonoBehaviour {
         bool moveBackward = Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow);
 
         // Kullanýcý ileri gitmek istiyorsa hýzlan
-        if (moveForward || moveBackward) {
-            currentSpeed = Mathf.MoveTowards(currentSpeed, maxSpeed , acceleration * Time.deltaTime);
+        if (moveForward) {
+            movingForward = true;
+            currentSpeed = Mathf.MoveTowards(currentSpeed, maxSpeed, acceleration * Time.deltaTime);
         }
-        // Kullanýcý yavaþlamak istiyorsa yavaþla
         else if (moveBackward) {
-            currentSpeed = Mathf.MoveTowards(currentSpeed, 0, deceleration * Time.deltaTime);
+            movingForward = false;
+            currentSpeed = Mathf.MoveTowards(currentSpeed, maxSpeed, acceleration * Time.deltaTime);
         }
-        // Hiçbir tuþa basýlmýyorsa zamanla yavaþla (doðal frenleme efekti)
         else {
             currentSpeed -= deceleration * Time.deltaTime * 0.5f;
         }
@@ -46,48 +45,25 @@ public class TrainControl : MonoBehaviour {
     }
 
     void MoveTrain() {
-        // Mevcut waypoint ile tren arasýndaki mesafe
         float distanceToTarget = Vector3.Distance(transform.position, Waypoints[currentPoint].position);
 
-        if (distanceToTarget > 0.1f) {
-            currentSpeed = maxSpeed;
-        }
-        else {
-            currentSpeed = 0f;
-            movingForward = false;
-        }
-
-        if (currentSpeed < maxSpeed) {
-            currentSpeed += acceleration * Time.deltaTime;
-        }
-        else if (currentSpeed > maxSpeed) {
-            currentSpeed -= deceleration * Time.deltaTime;
-        }
-
-        // Yeterince yaklaþtýysa yeni bir waypoint seç
         if (distanceToTarget < 0.1f) {
-            if (movingForward) {
-                if (currentPoint < Waypoints.Count - 1) {
-                    currentPoint++;
-                    movingForward = true;
-                }
+            if (movingForward && currentPoint < Waypoints.Count - 1) {
+                currentPoint++;
             }
-            else {
-                if (currentPoint > 0) {
-                    currentPoint--;
-                    movingForward = true;
-                }
+            else if (!movingForward && currentPoint > 0) {
+                currentPoint--;
             }
         }
 
         // Treni hedef waypoint'e doðru hareket ettir
         transform.position = Vector3.MoveTowards(transform.position, Waypoints[currentPoint].position, currentSpeed * Time.deltaTime);
-        
+
         // Treni yönlendirmek için rotasyonu deðiþtir
         if (Waypoints.Count > 1) {
             Vector3 direction = (Waypoints[currentPoint].position - transform.position).normalized;
-            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0, 0, angle);
+            float angle = Mathf.Atan2(direction.z, direction.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0, 0, -angle+270f);
         }
     }
 

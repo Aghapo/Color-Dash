@@ -25,17 +25,17 @@ public class Player : MonoBehaviour {
 
     void Update() {
 
-        movement.x = Input.GetAxisRaw("Horizontal"); // A/D veya Sol/Sað Ok Tuþlarý
-        movement.y = Input.GetAxisRaw("Vertical");   // W/S veya Yukarý/Aþaðý Ok Tuþlarý
+    //    movement.x = Input.GetAxisRaw("Horizontal"); // A/D veya Sol/Sað Ok Tuþlarý
+    //    movement.y = Input.GetAxisRaw("Vertical");   // W/S veya Yukarý/Aþaðý Ok Tuþlarý
 
     }
 
-    void FixedUpdate() {
+    //void FixedUpdate() {
         // Rigidbody2D kullanarak hareket ettir
-        rb.velocity = movement * moveSpeed;
-        transform.position = new Vector3(Mathf.Clamp(transform.position.x, minX, maxX), Mathf.Clamp(transform.position.y, minY, maxY), transform.position.z);
+        //rb.velocity = movement * moveSpeed;
+        //transform.position = new Vector3(Mathf.Clamp(transform.position.x, minX, maxX), Mathf.Clamp(transform.position.y, minY, maxY), transform.position.z);
 
-    }
+    //}
 
     void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("ColorChanger")) { // Çarptýðý nesnenin Tag'ý ColorChanger olmalý
